@@ -235,16 +235,8 @@
   transition: fill 0.3s 0.05s;
 }
 
-.card__icon-button .core {
-  transition: fill 0.3s 0.03s;
-}
-
 .card__icon-button:active .core {
   fill: var(--animation-fill-color);
-  transition: fill 0.3s;
-}
-
-.card__icon-button .main-body {
   transition: fill 0.3s;
 }
 
@@ -269,10 +261,6 @@
 .like-icon.is-liked .main-body {
   fill: var(--animation-fill-color);
   transition: fill 0.3s 0.05s;
-}
-
-.like-icon .main-body {
-  transition: fill 0.3s;
 }
 
 .like-icon.is-liked .contour {
@@ -324,10 +312,6 @@
   background: #000;
 }
 
-.dialog-window__close-button {
-  padding: 9px 17px;
-}
-
 .dialog-window__save-button-icon {
   grid-column: 1/2;
   grid-row: 1/2;
@@ -344,6 +328,7 @@
 .dialog-window__close-button {
   position: relative;
   grid-column: 1/3;
+  padding: 9px 17px;
 }
 
 @media (width > 375px) {
