@@ -277,7 +277,7 @@
   row-gap: 30px;
   column-gap: 20px;
   padding: 30px 41px;
-  inline-size: 341px;
+  inline-size: 357px;
 }
 .dialog-window[open]::backdrop {
   opacity: 0.75;
